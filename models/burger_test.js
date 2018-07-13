@@ -17,7 +17,7 @@ burger.selectAll(function (data) {
 
 		console.log('+++++++++++++++++++++++++++++++++++++++');
 	}
-});
+})
 
 // Insert a single entry into the database
 burger.insertOne(['burger_name', 'devoured'], 
