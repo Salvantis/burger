@@ -34,7 +34,7 @@ router.put('/burgers/:id', function(req, res) {
   }, condition, function(data) {
     res.redirect('/');
   });
-})
+});
 
 // Export routes for server.js to use.
 module.exports = router;
